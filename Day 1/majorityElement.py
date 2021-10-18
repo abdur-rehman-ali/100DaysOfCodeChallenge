@@ -5,6 +5,8 @@ And return -1 if no majority element exist
 """
 def majorityElement(nums):
     """
+    :type nums: List[int]
+    :rtype : int 
     Brute force approach with time complexity = O(n^2)
     """
     

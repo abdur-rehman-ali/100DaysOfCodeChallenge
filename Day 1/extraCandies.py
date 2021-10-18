@@ -9,7 +9,6 @@ def kidsWithCandies(candies, extraCandies):
         print(max_count)
         for i in range(len(candies)):
             if candies[i] + extraCandies >= max_count:
-                # max_count = candies[i] + extraCandies
                 result.append(True)
             else:
                 result.append(False)

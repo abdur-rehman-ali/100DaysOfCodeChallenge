@@ -2,6 +2,8 @@
 def majorityElementOptimal(nums):
     hash_map={}
     """
+    :type nums: List[int]
+    :rtype : int 
     Time compelexity = O(n)
     Space compelexity = O(n)
     """

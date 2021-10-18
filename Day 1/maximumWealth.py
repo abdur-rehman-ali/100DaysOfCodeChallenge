@@ -2,6 +2,9 @@ def maximumWealth(accounts):
         """
         :type accounts: List[List[int]]
         :rtype: int
+        
+        Time complexity = O(n)
+        Brute force appraoch
         """
         all_sum = []
         for row,row_value in enumerate(accounts):

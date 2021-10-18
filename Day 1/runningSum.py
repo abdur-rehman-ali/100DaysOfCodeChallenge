@@ -3,7 +3,7 @@ def runningSum(nums):
         """
         :type nums: List[int]
         :rtype: List[int]
-
+        Time complexity = O(n^2)
         """
         runningSumList = []
         for key,value in enumerate(nums):
@@ -15,6 +15,11 @@ def runningSum(nums):
 
 
 def runningSumEffective(nums):
+       """
+       :type nums: List[int]
+       :rtype: List[int]
+       Time complexity = O(n)
+       """
        runningSumList = []
        runningSumList.append(nums[0])
        for key in range(1,len(nums)):
